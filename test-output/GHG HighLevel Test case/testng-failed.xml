@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [GHG HighLevel Test case]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GHG Test(failed)">
+    <classes>
+      <class name="com.ghg.RenewableEnergyAllEndUserSectors">
+        <methods>
+          <include name="reportA12"/>
+          <include name="reportA13"/>
+          <include name="reportA10"/>
+          <include name="goback1"/>
+          <include name="reportA11"/>
+          <include name="Launchurl"/>
+          <include name="reportA9"/>
+          <include name="clickpanel"/>
+          <include name="reportA14"/>
+          <include name="goback"/>
+        </methods>
+      </class> <!-- com.ghg.RenewableEnergyAllEndUserSectors -->
+    </classes>
+  </test> <!-- GHG Test(failed) -->
+</suite> <!-- Failed suite [GHG HighLevel Test case] -->
