@@ -41,7 +41,7 @@ public class EngUserSector {
 	}
 	
 	
-	@Test
+	@Test(priority = 1, groups = "End user sector A1-A8 and A15")
 	public void ReportA1() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-1')]")).click();
@@ -51,7 +51,7 @@ public class EngUserSector {
 		//Thread.sleep(2000);
 		System.out.println("Report A1 pass");
 	}
-	@Test
+	@Test(priority = 2, groups = "End user sector A1-A8 and A15")
 	public void ReportA2() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-2')]")).click();
@@ -62,7 +62,7 @@ public class EngUserSector {
 		System.out.println("Report A2 pass");
 	}
 	
-	@Test
+	@Test(priority = 3, groups = "End user sector A1-A8 and A15")
 	public void ReportA3() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-3')]")).click();
@@ -73,7 +73,7 @@ public class EngUserSector {
 		System.out.println("Report A3 pass");
 	}
 	
-	@Test
+	@Test(priority = 4, groups = "End user sector A1-A8 and A15")
 	public void ReportA4() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-4')]")).click();
@@ -84,7 +84,7 @@ public class EngUserSector {
 		System.out.println("Report A4 pass");
 	}
 	
-	@Test
+	@Test(priority = 5, groups = "End user sector A1-A8 and A15")
 	public void ReportA5() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-5')]")).click();
@@ -95,7 +95,7 @@ public class EngUserSector {
 		System.out.println("Report A5 pass");
 	}
 	
-	@Test
+	@Test(priority = 6, groups = "End user sector A1-A8 and A15")
 	public void ReportA6() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-6')]")).click();
@@ -107,7 +107,7 @@ public class EngUserSector {
 	}
 	
 	
-	@Test
+	@Test(priority = 7, groups = "End user sector A1-A8 and A15")
 	public void ReportA7() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-7')]")).click();
@@ -118,7 +118,7 @@ public class EngUserSector {
 		System.out.println("Report A7 pass");
 	}
 	
-	@Test
+	@Test(priority = 8, groups = "End user sector A1-A8 and A15")
 	public void ReportA8() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-8')]")).click();
@@ -129,7 +129,7 @@ public class EngUserSector {
 		System.out.println("Report A8 pass");
 	}
 	
-	@Test
+	@Test(priority = 15, groups = "End user sector A1-A8 and A15")
 	public void ReportA15() throws InterruptedException
 	{
 		driver.findElement(By.xpath("//a[contains(text(),'A-15')]")).click();
