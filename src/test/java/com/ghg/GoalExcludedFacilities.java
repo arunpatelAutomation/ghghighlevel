@@ -17,32 +17,24 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
-public class GoalExcludedFacilities {
-	WebDriver driver;
-	WebElement e;
-
-	@BeforeMethod()
-	public void Launchurl() throws InterruptedException {
-
-		System.setProperty("webdriver.chrome.driver", "C:\\drivers\\chromedriver1\\chromedriver.exe");
-		driver = new ChromeDriver();
-		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
-		// Implicit wait for 10 seconds ---dynamic wait
-		driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
-		driver.get("https://ctsedwweb.ee.doe.gov/Annual/Report/report.aspx");
-		driver.findElement(By.xpath("//a[normalize-space()='OK']")).click();
-
+public class GoalExcludedFacilities extends TestBase {
 	
-		driver.findElement(By.xpath("//span[@id='mainContentPlaceHolder_GridLeft_lblGroupName2_0']")).click();
+	public GoalExcludedFacilities(){
+		super();
+	}
+	
+	WebElement e;
+	@BeforeMethod
+	public void setUp() throws InterruptedException{
+		initialization();
+driver.findElement(By.xpath("//a[normalize-space()='OK']")).click();
+		
+		WebElement e=driver.findElement(By.xpath("//span[@id='mainContentPlaceHolder_GridLeft_lblGroupName2_0']"));
 		Thread.sleep(2000);
 		e = driver.findElement(By.xpath("//span[@id='mainContentPlaceHolder_GridLeft_lblGroupName2_3']"));
 		ScrollWindow.scrollIntoView(e, driver);
 				e.click();
-		Thread.sleep(2000);
-
+		Thread.sleep(2000);	
 	}
 
 	@Test(priority = 1, groups = "Goal Excluded Facilities C1-C4")

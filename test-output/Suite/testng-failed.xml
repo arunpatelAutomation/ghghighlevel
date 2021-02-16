@@ -3,17 +3,13 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.ghg.RenewableEnergyAllEndUserSectors">
+      <class name="com.ghg.WaterUseF13">
         <methods>
-          <include name="reportA12"/>
-          <include name="reportA13"/>
-          <include name="goback1"/>
-          <include name="Launchurl"/>
-          <include name="clickpanel"/>
-          <include name="reportA14"/>
-          <include name="goback"/>
+          <include name="setUp"/>
+          <include name="ReportF3"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.ghg.RenewableEnergyAllEndUserSectors -->
+      </class> <!-- com.ghg.WaterUseF13 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

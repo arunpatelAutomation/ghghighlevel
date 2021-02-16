@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.ghg.VehiclesandEquipmentD14">
+      <class name="com.ghg.WaterUseF13">
         <methods>
-          <include name="ReportD3"/>
-          <include name="Launchurl"/>
+          <include name="setUp"/>
+          <include name="ReportF3"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.ghg.VehiclesandEquipmentD14 -->
+      </class> <!-- com.ghg.WaterUseF13 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

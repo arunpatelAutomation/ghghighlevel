@@ -1,285 +1,54 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="21" passed="21" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-12T22:18:11 EST" name="GHG HighLevel Test case" finished-at="2021-02-12T22:24:27 EST" duration-ms="375663">
+  <suite started-at="2021-02-15T21:16:02 EST" name="Default suite" finished-at="2021-02-15T21:16:51 EST" duration-ms="48734">
     <groups>
-      <group name="Goal Subject Buildings B1-B6">
-        <method signature="GoalSubjectBuildings.reportB1()[pri:1, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" name="reportB1" class="com.ghg.GoalSubjectBuildings"/>
-        <method signature="GoalSubjectBuildings.reportB2()[pri:2, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" name="reportB2" class="com.ghg.GoalSubjectBuildings"/>
-        <method signature="GoalSubjectBuildings.reportB3()[pri:3, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" name="reportB3" class="com.ghg.GoalSubjectBuildings"/>
-        <method signature="GoalSubjectBuildings.reportB4()[pri:4, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" name="reportB4" class="com.ghg.GoalSubjectBuildings"/>
-        <method signature="GoalSubjectBuildings.reportB5()[pri:5, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" name="reportB5" class="com.ghg.GoalSubjectBuildings"/>
-        <method signature="GoalSubjectBuildings.reportB6()[pri:6, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" name="reportB6" class="com.ghg.GoalSubjectBuildings"/>
-      </group> <!-- Goal Subject Buildings B1-B6 -->
-      <group name="Renewable Energy All End User sectors A9-A14">
-        <method signature="RenewableEnergyAllEndUserSectors.reportA10()[pri:2, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" name="reportA10" class="com.ghg.RenewableEnergyAllEndUserSectors"/>
-        <method signature="RenewableEnergyAllEndUserSectors.reportA11()[pri:3, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" name="reportA11" class="com.ghg.RenewableEnergyAllEndUserSectors"/>
-        <method signature="RenewableEnergyAllEndUserSectors.reportA12()[pri:4, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" name="reportA12" class="com.ghg.RenewableEnergyAllEndUserSectors"/>
-        <method signature="RenewableEnergyAllEndUserSectors.reportA13()[pri:5, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" name="reportA13" class="com.ghg.RenewableEnergyAllEndUserSectors"/>
-        <method signature="RenewableEnergyAllEndUserSectors.reportA14()[pri:6, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" name="reportA14" class="com.ghg.RenewableEnergyAllEndUserSectors"/>
-        <method signature="RenewableEnergyAllEndUserSectors.reportA9()[pri:1, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" name="reportA9" class="com.ghg.RenewableEnergyAllEndUserSectors"/>
-      </group> <!-- Renewable Energy All End User sectors A9-A14 -->
+      <group name="Greenhouse Gas Emission E1-E3">
+        <method signature="GreenhouseGasEmission.ReportE1()[pri:1, instance:com.ghg.GreenhouseGasEmission@460d0a57]" name="ReportE1" class="com.ghg.GreenhouseGasEmission"/>
+        <method signature="GreenhouseGasEmission.ReportE2()[pri:2, instance:com.ghg.GreenhouseGasEmission@460d0a57]" name="ReportE2" class="com.ghg.GreenhouseGasEmission"/>
+        <method signature="GreenhouseGasEmission.ReportE3()[pri:3, instance:com.ghg.GreenhouseGasEmission@460d0a57]" name="ReportE3" class="com.ghg.GreenhouseGasEmission"/>
+      </group> <!-- Greenhouse Gas Emission E1-E3 -->
     </groups>
-    <test started-at="2021-02-12T22:18:11 EST" name="GHG Test" finished-at="2021-02-12T22:24:27 EST" duration-ms="375663">
-      <class name="com.ghg.GoalSubjectBuildings">
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:11 EST" name="Launchurl" finished-at="2021-02-12T22:18:21 EST" duration-ms="9565" status="PASS">
+    <test started-at="2021-02-15T21:16:02 EST" name="Default test" finished-at="2021-02-15T21:16:51 EST" duration-ms="48734">
+      <class name="com.ghg.GreenhouseGasEmission">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:02 EST" name="setUp" finished-at="2021-02-15T21:16:15 EST" duration-ms="12394" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportB1()[pri:1, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:21 EST" name="reportB1" finished-at="2021-02-12T22:18:28 EST" duration-ms="7481" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="ReportE1()[pri:1, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:15 EST" name="ReportE1" finished-at="2021-02-15T21:16:17 EST" duration-ms="2679" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reportB1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:28 EST" name="teardown" finished-at="2021-02-12T22:18:29 EST" duration-ms="264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:29 EST" name="Launchurl" finished-at="2021-02-12T22:18:37 EST" duration-ms="8513" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportB2()[pri:2, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:37 EST" name="reportB2" finished-at="2021-02-12T22:18:44 EST" duration-ms="7002" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportB2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:44 EST" name="teardown" finished-at="2021-02-12T22:18:44 EST" duration-ms="242" status="PASS">
+        </test-method> <!-- ReportE1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:17 EST" name="teardown" finished-at="2021-02-15T21:16:22 EST" duration-ms="4160" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:44 EST" name="Launchurl" finished-at="2021-02-12T22:18:53 EST" duration-ms="8874" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:22 EST" name="setUp" finished-at="2021-02-15T21:16:31 EST" duration-ms="9216" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportB3()[pri:3, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:53 EST" name="reportB3" finished-at="2021-02-12T22:18:58 EST" duration-ms="5180" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="ReportE2()[pri:2, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:31 EST" name="ReportE2" finished-at="2021-02-15T21:16:34 EST" duration-ms="2799" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reportB3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:18:58 EST" name="teardown" finished-at="2021-02-12T22:19:03 EST" duration-ms="4131" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:03 EST" name="Launchurl" finished-at="2021-02-12T22:19:13 EST" duration-ms="10302" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportB4()[pri:4, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:13 EST" name="reportB4" finished-at="2021-02-12T22:19:18 EST" duration-ms="4782" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportB4 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:18 EST" name="teardown" finished-at="2021-02-12T22:19:22 EST" duration-ms="4156" status="PASS">
+        </test-method> <!-- ReportE2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:34 EST" name="teardown" finished-at="2021-02-15T21:16:38 EST" duration-ms="4166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:22 EST" name="Launchurl" finished-at="2021-02-12T22:19:33 EST" duration-ms="11368" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:38 EST" name="setUp" finished-at="2021-02-15T21:16:48 EST" duration-ms="9952" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportB5()[pri:5, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:33 EST" name="reportB5" finished-at="2021-02-12T22:19:38 EST" duration-ms="5069" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="ReportE3()[pri:3, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:48 EST" name="ReportE3" finished-at="2021-02-15T21:16:51 EST" duration-ms="3002" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- reportB5 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:38 EST" name="teardown" finished-at="2021-02-12T22:19:42 EST" duration-ms="4145" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:42 EST" name="Launchurl" finished-at="2021-02-12T22:19:53 EST" duration-ms="10964" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportB6()[pri:6, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:53 EST" name="reportB6" finished-at="2021-02-12T22:19:59 EST" duration-ms="5412" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportB6 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GoalSubjectBuildings@4c9f8c13]" started-at="2021-02-12T22:19:59 EST" name="teardown" finished-at="2021-02-12T22:20:03 EST" duration-ms="4211" status="PASS">
+        </test-method> <!-- ReportE3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:51 EST" name="teardown" finished-at="2021-02-15T21:16:51 EST" duration-ms="318" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.ghg.GoalSubjectBuildings -->
-      <class name="com.ghg.EngUserSector">
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:03 EST" name="LaunchURL" finished-at="2021-02-12T22:20:14 EST" duration-ms="11037" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA1()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:14 EST" name="ReportA1" finished-at="2021-02-12T22:20:17 EST" duration-ms="3264" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:17 EST" name="teardown" finished-at="2021-02-12T22:20:21 EST" duration-ms="4150" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:21 EST" name="LaunchURL" finished-at="2021-02-12T22:20:31 EST" duration-ms="9072" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA15()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:31 EST" name="ReportA15" finished-at="2021-02-12T22:20:34 EST" duration-ms="3514" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA15 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:34 EST" name="teardown" finished-at="2021-02-12T22:20:34 EST" duration-ms="201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:34 EST" name="LaunchURL" finished-at="2021-02-12T22:20:46 EST" duration-ms="11296" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA2()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:46 EST" name="ReportA2" finished-at="2021-02-12T22:20:49 EST" duration-ms="3030" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:49 EST" name="teardown" finished-at="2021-02-12T22:20:53 EST" duration-ms="4102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:20:53 EST" name="LaunchURL" finished-at="2021-02-12T22:21:01 EST" duration-ms="8698" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA3()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:01 EST" name="ReportA3" finished-at="2021-02-12T22:21:04 EST" duration-ms="2998" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:04 EST" name="teardown" finished-at="2021-02-12T22:21:08 EST" duration-ms="4093" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:08 EST" name="LaunchURL" finished-at="2021-02-12T22:21:18 EST" duration-ms="10006" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA4()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:18 EST" name="ReportA4" finished-at="2021-02-12T22:21:21 EST" duration-ms="2918" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA4 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:21 EST" name="teardown" finished-at="2021-02-12T22:21:25 EST" duration-ms="4118" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:25 EST" name="LaunchURL" finished-at="2021-02-12T22:21:36 EST" duration-ms="10842" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA5()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:36 EST" name="ReportA5" finished-at="2021-02-12T22:21:39 EST" duration-ms="3134" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA5 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:39 EST" name="teardown" finished-at="2021-02-12T22:21:44 EST" duration-ms="4103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:44 EST" name="LaunchURL" finished-at="2021-02-12T22:21:55 EST" duration-ms="11366" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA6()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:55 EST" name="ReportA6" finished-at="2021-02-12T22:21:58 EST" duration-ms="2862" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA6 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:21:58 EST" name="teardown" finished-at="2021-02-12T22:22:02 EST" duration-ms="4107" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:22:02 EST" name="LaunchURL" finished-at="2021-02-12T22:22:13 EST" duration-ms="10850" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA7()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:22:13 EST" name="ReportA7" finished-at="2021-02-12T22:22:16 EST" duration-ms="2841" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA7 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:22:16 EST" name="teardown" finished-at="2021-02-12T22:22:20 EST" duration-ms="4102" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="LaunchURL()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:22:20 EST" name="LaunchURL" finished-at="2021-02-12T22:22:30 EST" duration-ms="10284" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LaunchURL -->
-        <test-method signature="ReportA8()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:22:30 EST" name="ReportA8" finished-at="2021-02-12T22:22:33 EST" duration-ms="3199" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ReportA8 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.EngUserSector@5ae50ce6]" started-at="2021-02-12T22:22:33 EST" name="teardown" finished-at="2021-02-12T22:22:33 EST" duration-ms="206" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ghg.EngUserSector -->
-      <class name="com.ghg.RenewableEnergyAllEndUserSectors">
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:22:33 EST" name="Launchurl" finished-at="2021-02-12T22:22:44 EST" duration-ms="10569" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportA9()[pri:1, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:22:44 EST" name="reportA9" finished-at="2021-02-12T22:22:49 EST" duration-ms="4894" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportA9 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:22:49 EST" name="teardown" finished-at="2021-02-12T22:22:49 EST" duration-ms="158" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:22:49 EST" name="Launchurl" finished-at="2021-02-12T22:22:58 EST" duration-ms="9419" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportA10()[pri:2, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:22:58 EST" name="reportA10" finished-at="2021-02-12T22:23:04 EST" duration-ms="5432" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportA10 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:04 EST" name="teardown" finished-at="2021-02-12T22:23:08 EST" duration-ms="4117" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:08 EST" name="Launchurl" finished-at="2021-02-12T22:23:19 EST" duration-ms="11372" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportA11()[pri:3, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:19 EST" name="reportA11" finished-at="2021-02-12T22:23:24 EST" duration-ms="4848" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportA11 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:24 EST" name="teardown" finished-at="2021-02-12T22:23:28 EST" duration-ms="4088" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:28 EST" name="Launchurl" finished-at="2021-02-12T22:23:40 EST" duration-ms="11722" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportA12()[pri:4, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:40 EST" name="reportA12" finished-at="2021-02-12T22:23:45 EST" duration-ms="4789" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportA12 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:45 EST" name="teardown" finished-at="2021-02-12T22:23:49 EST" duration-ms="4125" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:49 EST" name="Launchurl" finished-at="2021-02-12T22:23:59 EST" duration-ms="10173" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportA13()[pri:5, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:23:59 EST" name="reportA13" finished-at="2021-02-12T22:24:05 EST" duration-ms="5853" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportA13 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:24:05 EST" name="teardown" finished-at="2021-02-12T22:24:09 EST" duration-ms="4087" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="Launchurl()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:24:09 EST" name="Launchurl" finished-at="2021-02-12T22:24:18 EST" duration-ms="8939" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Launchurl -->
-        <test-method signature="reportA14()[pri:6, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:24:18 EST" name="reportA14" finished-at="2021-02-12T22:24:23 EST" duration-ms="4822" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- reportA14 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.RenewableEnergyAllEndUserSectors@6f96c77]" started-at="2021-02-12T22:24:23 EST" name="teardown" finished-at="2021-02-12T22:24:27 EST" duration-ms="4103" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.ghg.RenewableEnergyAllEndUserSectors -->
-    </test> <!-- GHG Test -->
-  </suite> <!-- GHG HighLevel Test case -->
+      </class> <!-- com.ghg.GreenhouseGasEmission -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
