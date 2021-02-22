@@ -2,53 +2,53 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-15T21:16:02 EST" name="Default suite" finished-at="2021-02-15T21:16:51 EST" duration-ms="48734">
+  <suite started-at="2021-02-21T17:33:28 EST" name="Default suite" finished-at="2021-02-21T17:34:26 EST" duration-ms="57479">
     <groups>
-      <group name="Greenhouse Gas Emission E1-E3">
-        <method signature="GreenhouseGasEmission.ReportE1()[pri:1, instance:com.ghg.GreenhouseGasEmission@460d0a57]" name="ReportE1" class="com.ghg.GreenhouseGasEmission"/>
-        <method signature="GreenhouseGasEmission.ReportE2()[pri:2, instance:com.ghg.GreenhouseGasEmission@460d0a57]" name="ReportE2" class="com.ghg.GreenhouseGasEmission"/>
-        <method signature="GreenhouseGasEmission.ReportE3()[pri:3, instance:com.ghg.GreenhouseGasEmission@460d0a57]" name="ReportE3" class="com.ghg.GreenhouseGasEmission"/>
-      </group> <!-- Greenhouse Gas Emission E1-E3 -->
+      <group name="Water Use F1-3">
+        <method signature="WaterUseF13.ReportF1()[pri:1, instance:com.ghg.WaterUseF13@61001b64]" name="ReportF1" class="com.ghg.WaterUseF13"/>
+        <method signature="WaterUseF13.ReportF2()[pri:2, instance:com.ghg.WaterUseF13@61001b64]" name="ReportF2" class="com.ghg.WaterUseF13"/>
+        <method signature="WaterUseF13.ReportF3()[pri:3, instance:com.ghg.WaterUseF13@61001b64]" name="ReportF3" class="com.ghg.WaterUseF13"/>
+      </group> <!-- Water Use F1-3 -->
     </groups>
-    <test started-at="2021-02-15T21:16:02 EST" name="Default test" finished-at="2021-02-15T21:16:51 EST" duration-ms="48734">
-      <class name="com.ghg.GreenhouseGasEmission">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:02 EST" name="setUp" finished-at="2021-02-15T21:16:15 EST" duration-ms="12394" status="PASS">
+    <test started-at="2021-02-21T17:33:28 EST" name="Default test" finished-at="2021-02-21T17:34:26 EST" duration-ms="57479">
+      <class name="com.ghg.WaterUseF13">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:33:28 EST" name="setUp" finished-at="2021-02-21T17:33:41 EST" duration-ms="12628" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ReportE1()[pri:1, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:15 EST" name="ReportE1" finished-at="2021-02-15T21:16:17 EST" duration-ms="2679" status="PASS">
+        <test-method signature="ReportF1()[pri:1, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:33:41 EST" name="ReportF1" finished-at="2021-02-21T17:33:47 EST" duration-ms="5343" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReportE1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:17 EST" name="teardown" finished-at="2021-02-15T21:16:22 EST" duration-ms="4160" status="PASS">
+        </test-method> <!-- ReportF1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:33:47 EST" name="teardown" finished-at="2021-02-21T17:33:50 EST" duration-ms="2928" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:22 EST" name="setUp" finished-at="2021-02-15T21:16:31 EST" duration-ms="9216" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:33:50 EST" name="setUp" finished-at="2021-02-21T17:34:01 EST" duration-ms="11883" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ReportE2()[pri:2, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:31 EST" name="ReportE2" finished-at="2021-02-15T21:16:34 EST" duration-ms="2799" status="PASS">
+        <test-method signature="ReportF2()[pri:2, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:34:01 EST" name="ReportF2" finished-at="2021-02-21T17:34:07 EST" duration-ms="5473" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReportE2 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:34 EST" name="teardown" finished-at="2021-02-15T21:16:38 EST" duration-ms="4166" status="PASS">
+        </test-method> <!-- ReportF2 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:34:07 EST" name="teardown" finished-at="2021-02-21T17:34:08 EST" duration-ms="1384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:38 EST" name="setUp" finished-at="2021-02-15T21:16:48 EST" duration-ms="9952" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:34:08 EST" name="setUp" finished-at="2021-02-21T17:34:20 EST" duration-ms="11406" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="ReportE3()[pri:3, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:48 EST" name="ReportE3" finished-at="2021-02-15T21:16:51 EST" duration-ms="3002" status="PASS">
+        <test-method signature="ReportF3()[pri:3, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:34:20 EST" name="ReportF3" finished-at="2021-02-21T17:34:25 EST" duration-ms="4878" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReportE3 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.GreenhouseGasEmission@460d0a57]" started-at="2021-02-15T21:16:51 EST" name="teardown" finished-at="2021-02-15T21:16:51 EST" duration-ms="318" status="PASS">
+        </test-method> <!-- ReportF3 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.ghg.WaterUseF13@61001b64]" started-at="2021-02-21T17:34:25 EST" name="teardown" finished-at="2021-02-21T17:34:26 EST" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.ghg.GreenhouseGasEmission -->
+      </class> <!-- com.ghg.WaterUseF13 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -8,7 +8,6 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 
@@ -19,12 +18,13 @@ public class TestBase {
 	public static WebDriver driver;
 	public static Properties prop;
 	
+	
 	public TestBase(){
 		try {
 			prop = new Properties();
 			
 			
-			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"\\src\\test\\java\\com\\ghg\\config.properties");
+			FileInputStream ip = new FileInputStream(System.getProperty("user.dir")+"\\resources\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
@@ -38,19 +38,19 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
+			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 			
-			 
+			WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		}
 		else if(browserName.equals("FF")){
 			System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\Drivers\\geckodriver.exe");
-			
+			//WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver(); 
 		}
 		else if(browserName.equals("edge")){
-			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\Drivers\\msedgedriver.exe");
-			
+			//System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\Drivers\\msedgedriver.exe");
+			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver(); 
 		}
 		

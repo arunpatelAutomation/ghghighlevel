@@ -1,0 +1,7 @@
+16:44:43.727 [main] INFO  com.ghg.GreenhouseGasEmission - Report E1 pass
+17:18:47.925 [main] INFO  com.ghg.GreenhouseGasEmission - Report E2 pass
+17:19:04.635 [main] INFO  com.ghg.GreenhouseGasEmission - Report E3 pass
+17:20:13.254 [main] INFO  com.ghg.GreenhouseGasEmission - Report E1 pass
+17:20:13.259 [main] ERROR com.ghg.GreenhouseGasEmission - Report E1 Fail
+17:20:29.252 [main] INFO  com.ghg.GreenhouseGasEmission - Report E2 pass
+17:20:44.176 [main] INFO  com.ghg.GreenhouseGasEmission - Report E3 pass

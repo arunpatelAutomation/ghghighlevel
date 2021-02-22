@@ -63,7 +63,7 @@ public class WaterUseF13 extends TestBase {
 
 		driver.findElement(By.xpath("//a[contains(text(),'F-3')]")).click();
 		Thread.sleep(2000);
-		WebElement F3 = driver.findElement(By.xpath("//span[normalize-space()='Report Filter/Options']"));
+		WebElement F3 = driver.findElement(By.xpath("//div[contains(text(),'Goal Building Potable Water Use per Gross Square F')]"));
 		Assert.assertTrue(F3.isDisplayed());
 		Thread.sleep(2000);
 	}
