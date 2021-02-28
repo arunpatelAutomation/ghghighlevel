@@ -1,0 +1,491 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "Suite",
+    "children" : [ {
+      "name" : "Test",
+      "children" : [ {
+        "name" : "com.ghg.GoalExcludedFacilities",
+        "children" : [ {
+          "name" : "ReportC1",
+          "uid" : "c72dfd9b299effdd",
+          "parentUid" : "07eb149dc69ee50e3f9a173000554ab6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613945935006,
+            "stop" : 1613945944742,
+            "duration" : 9736
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportC2",
+          "uid" : "405d6dfa12234867",
+          "parentUid" : "07eb149dc69ee50e3f9a173000554ab6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613945959142,
+            "stop" : 1613945964414,
+            "duration" : 5272
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportC3",
+          "uid" : "bf3f296a4dca22ce",
+          "parentUid" : "07eb149dc69ee50e3f9a173000554ab6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613945978531,
+            "stop" : 1613945986007,
+            "duration" : 7476
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportC4",
+          "uid" : "28d531ebf256dcc9",
+          "parentUid" : "07eb149dc69ee50e3f9a173000554ab6",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613945999670,
+            "stop" : 1613946005530,
+            "duration" : 5860
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "07eb149dc69ee50e3f9a173000554ab6"
+      }, {
+        "name" : "com.ghg.GreenhouseGasEmission",
+        "children" : [ {
+          "name" : "ReportE1",
+          "uid" : "bb3fa258a790a0d7",
+          "parentUid" : "db62eb5b29002f4be974930693979ea7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946094799,
+            "stop" : 1613946097642,
+            "duration" : 2843
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportE2",
+          "uid" : "fecc10872d411f50",
+          "parentUid" : "db62eb5b29002f4be974930693979ea7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946109562,
+            "stop" : 1613946112751,
+            "duration" : 3189
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportE3",
+          "uid" : "964593009da75a64",
+          "parentUid" : "db62eb5b29002f4be974930693979ea7",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946124689,
+            "stop" : 1613946128017,
+            "duration" : 3328
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "db62eb5b29002f4be974930693979ea7"
+      }, {
+        "name" : "com.ghg.GoalSubjectBuildings",
+        "children" : [ {
+          "name" : "reportB1",
+          "uid" : "4f396171d2332aa3",
+          "parentUid" : "bec4d232ec129fe47b62ee75b3b8aad0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946140374,
+            "stop" : 1613946146397,
+            "duration" : 6023
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportB2",
+          "uid" : "cafdee7737ce8cb1",
+          "parentUid" : "bec4d232ec129fe47b62ee75b3b8aad0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946158761,
+            "stop" : 1613946165871,
+            "duration" : 7110
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportB3",
+          "uid" : "e4998f510033c48e",
+          "parentUid" : "bec4d232ec129fe47b62ee75b3b8aad0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946179890,
+            "stop" : 1613946185025,
+            "duration" : 5135
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportB4",
+          "uid" : "fd88f8f23d2106f6",
+          "parentUid" : "bec4d232ec129fe47b62ee75b3b8aad0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946197357,
+            "stop" : 1613946202463,
+            "duration" : 5106
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportB5",
+          "uid" : "f9faf69408b10b2a",
+          "parentUid" : "bec4d232ec129fe47b62ee75b3b8aad0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946214835,
+            "stop" : 1613946220053,
+            "duration" : 5218
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportB6",
+          "uid" : "7d5be1a8859f2c78",
+          "parentUid" : "bec4d232ec129fe47b62ee75b3b8aad0",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946231869,
+            "stop" : 1613946237772,
+            "duration" : 5903
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "bec4d232ec129fe47b62ee75b3b8aad0"
+      }, {
+        "name" : "com.ghg.VehiclesandEquipmentD14",
+        "children" : [ {
+          "name" : "ReportD1",
+          "uid" : "8cdf3e44feaab688",
+          "parentUid" : "41214a95846eebb8b6ec4729a2242fa9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946252764,
+            "stop" : 1613946257741,
+            "duration" : 4977
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportD2",
+          "uid" : "549055e83d490410",
+          "parentUid" : "41214a95846eebb8b6ec4729a2242fa9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946274282,
+            "stop" : 1613946280473,
+            "duration" : 6191
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportD3",
+          "uid" : "d99c4281f0b44915",
+          "parentUid" : "41214a95846eebb8b6ec4729a2242fa9",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946293546,
+            "stop" : 1613946298773,
+            "duration" : 5227
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "41214a95846eebb8b6ec4729a2242fa9"
+      }, {
+        "name" : "com.ghg.EngUserSector",
+        "children" : [ {
+          "name" : "ReportA1",
+          "uid" : "ec76b3d02e1a504e",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946311778,
+            "stop" : 1613946315235,
+            "duration" : 3457
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA2",
+          "uid" : "841cdc323088e864",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946327100,
+            "stop" : 1613946330186,
+            "duration" : 3086
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA3",
+          "uid" : "d9d91862b6854607",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946341459,
+            "stop" : 1613946344289,
+            "duration" : 2830
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA4",
+          "uid" : "fb102815a0fe2d76",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946356288,
+            "stop" : 1613946359299,
+            "duration" : 3011
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA5",
+          "uid" : "c9771853f54ffd66",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946370630,
+            "stop" : 1613946373604,
+            "duration" : 2974
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA6",
+          "uid" : "69312e88e464116d",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946385529,
+            "stop" : 1613946388543,
+            "duration" : 3014
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA7",
+          "uid" : "8dd6ddb25505a22",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946399869,
+            "stop" : 1613946409632,
+            "duration" : 9763
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA8",
+          "uid" : "c98d7927dc287d73",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946421447,
+            "stop" : 1613946424460,
+            "duration" : 3013
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportA15",
+          "uid" : "314d47b03c7e427e",
+          "parentUid" : "cbef5b7fd48d20e875a936e8a6209edb",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946436240,
+            "stop" : 1613946439911,
+            "duration" : 3671
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "cbef5b7fd48d20e875a936e8a6209edb"
+      }, {
+        "name" : "com.ghg.RenewableEnergyAllEndUserSectors",
+        "children" : [ {
+          "name" : "reportA9",
+          "uid" : "729347579598ba90",
+          "parentUid" : "aa17865ebfd64d1b46c1be2eb06f072a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946451571,
+            "stop" : 1613946456472,
+            "duration" : 4901
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportA10",
+          "uid" : "a57f9c717466cbfd",
+          "parentUid" : "aa17865ebfd64d1b46c1be2eb06f072a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946468602,
+            "stop" : 1613946474454,
+            "duration" : 5852
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportA11",
+          "uid" : "ecfb9830369a071c",
+          "parentUid" : "aa17865ebfd64d1b46c1be2eb06f072a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946486882,
+            "stop" : 1613946492065,
+            "duration" : 5183
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportA12",
+          "uid" : "40faa00de856ea1b",
+          "parentUid" : "aa17865ebfd64d1b46c1be2eb06f072a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946503981,
+            "stop" : 1613946508812,
+            "duration" : 4831
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportA13",
+          "uid" : "fdcb5e7635636eff",
+          "parentUid" : "aa17865ebfd64d1b46c1be2eb06f072a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946520536,
+            "stop" : 1613946526641,
+            "duration" : 6105
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "reportA14",
+          "uid" : "df41f61c845ff628",
+          "parentUid" : "aa17865ebfd64d1b46c1be2eb06f072a",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946538863,
+            "stop" : 1613946543812,
+            "duration" : 4949
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "aa17865ebfd64d1b46c1be2eb06f072a"
+      } ],
+      "uid" : "7314231e84d67a341867b5c9d3f928d2"
+    } ],
+    "uid" : "29f4dcc45a0e26cd7c7462063cee854b"
+  }, {
+    "name" : "Default suite",
+    "children" : [ {
+      "name" : "Default test",
+      "children" : [ {
+        "name" : "com.ghg.WaterUseF13",
+        "children" : [ {
+          "name" : "ReportF1",
+          "uid" : "a2067650b9f9c0a4",
+          "parentUid" : "d25ca259ad23e1b8d757cf0c9b37399b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946821855,
+            "stop" : 1613946827080,
+            "duration" : 5225
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportF2",
+          "uid" : "4f3ea876944e1e71",
+          "parentUid" : "d25ca259ad23e1b8d757cf0c9b37399b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946841925,
+            "stop" : 1613946847389,
+            "duration" : 5464
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "ReportF3",
+          "uid" : "43beff77253c430a",
+          "parentUid" : "d25ca259ad23e1b8d757cf0c9b37399b",
+          "status" : "passed",
+          "time" : {
+            "start" : 1613946860209,
+            "stop" : 1613946865074,
+            "duration" : 4865
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "d25ca259ad23e1b8d757cf0c9b37399b"
+      } ],
+      "uid" : "848117670d75f6868e681771989ad50e"
+    } ],
+    "uid" : "2c8837b97293ea01a164a5cd7048ad56"
+  } ]
+}

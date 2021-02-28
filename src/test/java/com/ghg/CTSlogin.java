@@ -11,7 +11,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class CTSlogin {
-	
+	//test case for CTS
 	
 	@Test(invocationCount=10)
 	public void ctslogin() throws InterruptedException {

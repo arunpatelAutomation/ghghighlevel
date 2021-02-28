@@ -40,7 +40,6 @@ public class WaterUseF13 extends TestBase {
 
 	@Test(priority = 1, groups = "Water Use F1-3")
 	public void ReportF1() throws InterruptedException {
-
 		driver.findElement(By.xpath("//a[contains(text(),'F-1')]")).click();
 		Thread.sleep(2000);
 		WebElement F1 = driver.findElement(By.xpath("//span[normalize-space()='Report Filter/Options']"));

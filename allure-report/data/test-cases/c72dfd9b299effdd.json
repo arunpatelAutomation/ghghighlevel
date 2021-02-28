@@ -1,0 +1,94 @@
+{
+  "uid" : "c72dfd9b299effdd",
+  "name" : "ReportC1",
+  "fullName" : "com.ghg.GoalExcludedFacilities.ReportC1",
+  "historyId" : "b6808d5cc5ef158ced20daaf2dfb6e51",
+  "time" : {
+    "start" : 1613945935006,
+    "stop" : 1613945944742,
+    "duration" : 9736
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613945919259,
+      "stop" : 1613945934728,
+      "duration" : 15469
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613945944770,
+      "stop" : 1613945946207,
+      "duration" : 1437
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportC1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "23012@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c72dfd9b299effdd.json",
+  "parameterValues" : [ ]
+}

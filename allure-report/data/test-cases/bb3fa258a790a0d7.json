@@ -1,0 +1,94 @@
+{
+  "uid" : "bb3fa258a790a0d7",
+  "name" : "ReportE1",
+  "fullName" : "com.ghg.GreenhouseGasEmission.ReportE1",
+  "historyId" : "3adcbf870784087b06855690c8af77cc",
+  "time" : {
+    "start" : 1613946094799,
+    "stop" : 1613946097642,
+    "duration" : 2843
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613946084776,
+      "stop" : 1613946094772,
+      "duration" : 9996
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613946097644,
+      "stop" : 1613946099066,
+      "duration" : 1422
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.GreenhouseGasEmission"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.GreenhouseGasEmission"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportE1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.GreenhouseGasEmission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "23012@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bb3fa258a790a0d7.json",
+  "parameterValues" : [ ]
+}
