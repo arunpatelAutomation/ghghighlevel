@@ -1,0 +1,92 @@
+{
+  "uid" : "6437e9e278c254d0",
+  "name" : "ReportF3",
+  "fullName" : "com.ghg.WaterUseF13.ReportF3",
+  "historyId" : "45af683c79d0fe2dc3c5827981948f9e",
+  "time" : {
+    "start" : 1613946860209,
+    "stop" : 1613946865074,
+    "duration" : 4865
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613946848782,
+      "stop" : 1613946860187,
+      "duration" : 11405
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613946865082,
+      "stop" : 1613946866385,
+      "duration" : 1303
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.WaterUseF13"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.WaterUseF13"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportF3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.WaterUseF13"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "16976@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6437e9e278c254d0.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "a7217edf99b75695",
+  "name" : "reportA14",
+  "fullName" : "com.ghg.RenewableEnergyAllEndUserSectors.reportA14",
+  "historyId" : "157d7c9e40a885399291d5cdae132736",
+  "time" : {
+    "start" : 1614638122041,
+    "stop" : 1614638127219,
+    "duration" : 5178
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614638110079,
+      "stop" : 1614638122032,
+      "duration" : 11953
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614638127228,
+      "stop" : 1614638128753,
+      "duration" : 1525
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.RenewableEnergyAllEndUserSectors"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.RenewableEnergyAllEndUserSectors"
+  }, {
+    "name" : "testMethod",
+    "value" : "reportA14"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.RenewableEnergyAllEndUserSectors"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "13552@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc3ee35ff90c2899",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614523300849,
+        "stop" : 1614523305717,
+        "duration" : 4868
+      }
+    }, {
+      "uid" : "df35ead5062cf9e0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613946538863,
+        "stop" : 1613946543812,
+        "duration" : 4949
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7217edf99b75695.json",
+  "parameterValues" : [ ]
+}

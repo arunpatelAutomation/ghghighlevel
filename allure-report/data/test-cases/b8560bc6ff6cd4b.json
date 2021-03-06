@@ -1,0 +1,92 @@
+{
+  "uid" : "b8560bc6ff6cd4b",
+  "name" : "ReportD2",
+  "fullName" : "com.ghg.VehiclesandEquipmentD14.ReportD2",
+  "historyId" : "ea0f17b6cf1f5d53dd563609ecf71f8c",
+  "time" : {
+    "start" : 1613946274282,
+    "stop" : 1613946280473,
+    "duration" : 6191
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613946262331,
+      "stop" : 1613946274275,
+      "duration" : 11944
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613946280476,
+      "stop" : 1613946282054,
+      "duration" : 1578
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.VehiclesandEquipmentD14"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.VehiclesandEquipmentD14"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportD2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.VehiclesandEquipmentD14"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "23012@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8560bc6ff6cd4b.json",
+  "parameterValues" : [ ]
+}

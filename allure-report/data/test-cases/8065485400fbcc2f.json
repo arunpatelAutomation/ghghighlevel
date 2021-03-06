@@ -1,0 +1,92 @@
+{
+  "uid" : "8065485400fbcc2f",
+  "name" : "ReportF1",
+  "fullName" : "com.ghg.WaterUseF13.ReportF1",
+  "historyId" : "91dd634075133f7e345b41be41b78a9a",
+  "time" : {
+    "start" : 1614522748244,
+    "stop" : 1614522753915,
+    "duration" : 5671
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614522735151,
+      "stop" : 1614522748219,
+      "duration" : 13068
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614522753919,
+      "stop" : 1614522756543,
+      "duration" : 2624
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.WaterUseF13"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.WaterUseF13"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportF1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.WaterUseF13"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "6644@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8065485400fbcc2f.json",
+  "parameterValues" : [ ]
+}

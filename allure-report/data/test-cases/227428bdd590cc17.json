@@ -1,0 +1,118 @@
+{
+  "uid" : "227428bdd590cc17",
+  "name" : "ReportC4",
+  "fullName" : "com.ghg.GoalExcludedFacilities.ReportC4",
+  "historyId" : "add19dd1ee871febe004771fb3c71cee",
+  "time" : {
+    "start" : 1614637596849,
+    "stop" : 1614637601664,
+    "duration" : 4815
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614637584570,
+      "stop" : 1614637596836,
+      "duration" : 12266
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614637601682,
+      "stop" : 1614637603066,
+      "duration" : 1384
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportC4"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "13552@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f50018c9a0dec211",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614525484010,
+        "stop" : 1614525488889,
+        "duration" : 4879
+      }
+    }, {
+      "uid" : "1242c134b30dfc78",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614522727208,
+        "stop" : 1614522732871,
+        "duration" : 5663
+      }
+    }, {
+      "uid" : "9063b5e5d4c36d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613945999670,
+        "stop" : 1613946005530,
+        "duration" : 5860
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "227428bdd590cc17.json",
+  "parameterValues" : [ ]
+}

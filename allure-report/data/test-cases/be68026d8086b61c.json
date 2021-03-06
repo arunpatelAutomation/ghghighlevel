@@ -1,0 +1,92 @@
+{
+  "uid" : "be68026d8086b61c",
+  "name" : "ReportA5",
+  "fullName" : "com.ghg.EngUserSector.ReportA5",
+  "historyId" : "d924fb82cfe5c30c7ac0edae466f7103",
+  "time" : {
+    "start" : 1614523100929,
+    "stop" : 1614523104194,
+    "duration" : 3265
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614523089480,
+      "stop" : 1614523100924,
+      "duration" : 11444
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614523104196,
+      "stop" : 1614523105803,
+      "duration" : 1607
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportA5"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "6644@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "be68026d8086b61c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "5d3fe9b0b158ec24",
+  "name" : "ReportA1",
+  "fullName" : "com.ghg.EngUserSector.ReportA1",
+  "historyId" : "ccd219dadcc88e47568f34b781ff0a58",
+  "time" : {
+    "start" : 1614637886008,
+    "stop" : 1614637889466,
+    "duration" : 3458
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614637875462,
+      "stop" : 1614637886000,
+      "duration" : 10538
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614637889469,
+      "stop" : 1614637890888,
+      "duration" : 1419
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportA1"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "13552@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9487bcb504a0e853",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614523029886,
+        "stop" : 1614523035231,
+        "duration" : 5345
+      }
+    }, {
+      "uid" : "4c42ddf83b6c9071",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613946311778,
+        "stop" : 1613946315235,
+        "duration" : 3457
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5d3fe9b0b158ec24.json",
+  "parameterValues" : [ ]
+}

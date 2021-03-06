@@ -1,0 +1,92 @@
+{
+  "uid" : "30b683840291ef88",
+  "name" : "reportB6",
+  "fullName" : "com.ghg.GoalSubjectBuildings.reportB6",
+  "historyId" : "26e281fec0eaa7a7c79effd16c4a826a",
+  "time" : {
+    "start" : 1613946231869,
+    "stop" : 1613946237772,
+    "duration" : 5903
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613946221509,
+      "stop" : 1613946231862,
+      "duration" : 10353
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613946237792,
+      "stop" : 1613946239224,
+      "duration" : 1432
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.GoalSubjectBuildings"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.GoalSubjectBuildings"
+  }, {
+    "name" : "testMethod",
+    "value" : "reportB6"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.GoalSubjectBuildings"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "23012@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30b683840291ef88.json",
+  "parameterValues" : [ ]
+}

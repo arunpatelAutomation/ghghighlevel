@@ -1,0 +1,92 @@
+{
+  "uid" : "9614c1c5e09cf0c1",
+  "name" : "ReportE3",
+  "fullName" : "com.ghg.GreenhouseGasEmission.ReportE3",
+  "historyId" : "80abb0f5d0f6c264e4b3c2c9177d780b",
+  "time" : {
+    "start" : 1614522842895,
+    "stop" : 1614522846200,
+    "duration" : 3305
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614522831301,
+      "stop" : 1614522842886,
+      "duration" : 11585
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614522846203,
+      "stop" : 1614522847705,
+      "duration" : 1502
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.GreenhouseGasEmission"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.GreenhouseGasEmission"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportE3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.GreenhouseGasEmission"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "6644@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9614c1c5e09cf0c1.json",
+  "parameterValues" : [ ]
+}

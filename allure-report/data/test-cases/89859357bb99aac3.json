@@ -1,0 +1,92 @@
+{
+  "uid" : "89859357bb99aac3",
+  "name" : "reportA11",
+  "fullName" : "com.ghg.RenewableEnergyAllEndUserSectors.reportA11",
+  "historyId" : "8758c8e85297b74770c76d6e23acade6",
+  "time" : {
+    "start" : 1613946486882,
+    "stop" : 1613946492065,
+    "duration" : 5183
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1613946475846,
+      "stop" : 1613946486876,
+      "duration" : 11030
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1613946492074,
+      "stop" : 1613946493540,
+      "duration" : 1466
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.RenewableEnergyAllEndUserSectors"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.RenewableEnergyAllEndUserSectors"
+  }, {
+    "name" : "testMethod",
+    "value" : "reportA11"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.RenewableEnergyAllEndUserSectors"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "23012@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89859357bb99aac3.json",
+  "parameterValues" : [ ]
+}

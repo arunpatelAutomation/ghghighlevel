@@ -38,9 +38,9 @@ public class TestBase {
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.equals("chrome")){
-			//System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Drivers\\chromedriver.exe");
 			
-			WebDriverManager.chromedriver().setup();
+			//WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
 		}
 		else if(browserName.equals("FF")){
@@ -49,8 +49,8 @@ public class TestBase {
 			driver = new FirefoxDriver(); 
 		}
 		else if(browserName.equals("edge")){
-			//System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\Drivers\\msedgedriver.exe");
-			WebDriverManager.edgedriver().setup();
+			System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\Drivers\\msedgedriver.exe");
+			//WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver(); 
 		}
 		

@@ -1,0 +1,110 @@
+{
+  "uid" : "face7d8906d984ff",
+  "name" : "reportB2",
+  "fullName" : "com.ghg.GoalSubjectBuildings.reportB2",
+  "historyId" : "c7681ddd371f8e2097b7dc23b9156e22",
+  "time" : {
+    "start" : 1614637736663,
+    "stop" : 1614637741929,
+    "duration" : 5266
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614637725765,
+      "stop" : 1614637736649,
+      "duration" : 10884
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614637741933,
+      "stop" : 1614637743615,
+      "duration" : 1682
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.GoalSubjectBuildings"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.GoalSubjectBuildings"
+  }, {
+    "name" : "testMethod",
+    "value" : "reportB2"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.GoalSubjectBuildings"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "13552@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f4c96b58477ebf77",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614522876280,
+        "stop" : 1614522881125,
+        "duration" : 4845
+      }
+    }, {
+      "uid" : "8708d3acb833d307",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613946158761,
+        "stop" : 1613946165871,
+        "duration" : 7110
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "face7d8906d984ff.json",
+  "parameterValues" : [ ]
+}

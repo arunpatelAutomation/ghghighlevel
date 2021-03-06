@@ -1,0 +1,92 @@
+{
+  "uid" : "ff37642214bfd2dc",
+  "name" : "ReportC3",
+  "fullName" : "com.ghg.GoalExcludedFacilities.ReportC3",
+  "historyId" : "1afd3b7ca1bf757f1efc3d551e3b8660",
+  "time" : {
+    "start" : 1614525466918,
+    "stop" : 1614525471748,
+    "duration" : 4830
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614525455586,
+      "stop" : 1614525466899,
+      "duration" : 11313
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614525471758,
+      "stop" : 1614525473203,
+      "duration" : 1445
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportC3"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default suite"
+  }, {
+    "name" : "suite",
+    "value" : "Default test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.GoalExcludedFacilities"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "25292@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ff37642214bfd2dc.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,110 @@
+{
+  "uid" : "ac431b0ddee37751",
+  "name" : "ReportA15",
+  "fullName" : "com.ghg.EngUserSector.ReportA15",
+  "historyId" : "650df428ff6ed5aa2a26eed4f0d97daa",
+  "time" : {
+    "start" : 1614638013313,
+    "stop" : 1614638016635,
+    "duration" : 3322
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "setUp",
+    "time" : {
+      "start" : 1614638001723,
+      "stop" : 1614638013306,
+      "duration" : 11583
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "teardown",
+    "time" : {
+      "start" : 1614638016639,
+      "stop" : 1614638018103,
+      "duration" : 1464
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : false,
+    "stepsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "testClass",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "testMethod",
+    "value" : "ReportA15"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Test"
+  }, {
+    "name" : "subSuite",
+    "value" : "com.ghg.EngUserSector"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-LU23BNS"
+  }, {
+    "name" : "thread",
+    "value" : "13552@DESKTOP-LU23BNS.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "bc40473ec60c7d9c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1614523162992,
+        "stop" : 1614523166614,
+        "duration" : 3622
+      }
+    }, {
+      "uid" : "962e6241730d2ca8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1613946436240,
+        "stop" : 1613946439911,
+        "duration" : 3671
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ac431b0ddee37751.json",
+  "parameterValues" : [ ]
+}
