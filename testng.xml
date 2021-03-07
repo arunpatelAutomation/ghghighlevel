@@ -3,14 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <!--<class name="com.ghg.FacilityInvestmentGrossSquareFtOtherMetricsG13"/>-->
-      <!--<class name="com.ghg.GoalExcludedFacilities"/>-->
-     <!-- <class name="com.ghg.GreenhouseGasEmission"/>-->
+      <class name="com.ghg.FacilityInvestmentGrossSquareFtOtherMetricsG13"/>
+      <class name="com.ghg.GoalExcludedFacilities"/>
+     <class name="com.ghg.GreenhouseGasEmission"/>
       <class name="com.ghg.WaterUseF13"/>
-     <!-- <class name="com.ghg.GoalSubjectBuildings"/>-->
-     <!-- <class name="com.ghg.VehiclesandEquipmentD14"/>-->
-     <!-- <class name="com.ghg.EngUserSector"/>-->
-     <!-- <class name="com.ghg.RenewableEnergyAllEndUserSectors"/>-->
+   <class name="com.ghg.GoalSubjectBuildings"/>
+   <class name="com.ghg.VehiclesandEquipmentD14"/>
+     <class name="com.ghg.EngUserSector"/>
+      <class name="com.ghg.RenewableEnergyAllEndUserSectors"/>
         </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
